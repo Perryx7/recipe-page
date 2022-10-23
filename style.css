@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+body{
+    margin: 0;
+    padding:0 ;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.classic{
+position: absolute;
+left: 236px;
+}
+.p1{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Playfair',serif;
+}
+
+.p2{
+    font-family: 'montserrat' , sans-serif;
+    font-size : 14px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    left: 25px;
+    top: -30px;
+    width: 587px;
+    height: 51px;
+}
+
+.image{
+    position: absolute;
+    left: 236px;
+    top: 196px;
+}
+
+.container2{
+display: block;
+position: relative;
+left: 220px;
+top: 690px;
+width: 455px;
+padding: 10px;
+height: 45px;
+
+height: auto;
+
+}
+.container3{
+float: right;
+
+position: relative;
+right: 240px;
+
+height: 367px;
+width: 198px;
+display: block;
+bottom: 1270px;
+}
+
+.div1{
+    
+    display: flex;
+    height: 34px;
+    
+}
+
+.p3{
+    margin-left: 20px; 
+    position: relative; 
+    top: -20px;
+}
+
+.p4{
+    position: inherit;
+    top: -15px;
+    color: #F2994A;
+}
+
+.image1{
+background-color:#F2994A ;
+}
+
+.div2{
+  display: flex;
+    height: 34px;
+    
+    position: inherit;
+   margin-top: 46px;
+}
+
+.div3{
+    display: flex;
+    height: 34px;
+  
+    position: inherit;
+    margin-top: 46px;
+}
+.div4{
+    display: flex;
+    height: 34px;
+  
+    position: inherit;
+    margin-top: 46px;
+}
+
+.p55{
+    margin-left: 20px; 
+    position: relative; 
+    top: -20px;
+}
+
+.p5{
+    position: inherit;
+    top: -15px;
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+
+.p66{
+    margin-left: 20px; 
+    position: relative; 
+    top: -20px;
+    
+}
+
+.p6{
+    position: inherit;
+    top: -15px;
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+
+.p77{
+    margin-left: 20px; 
+    position: relative; 
+    top: -20px;
+}
+
+.p7{
+    position: inherit;
+    top: -15px;
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+
+.ingredients{
+    font-family: 'playfair display' ;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.crust{
+    font-size: 18px;
+    font-style: italic;
+    font-family:'playfair display';
+    font-weight: 400;
+}
+
+.inputA{
+    display: block;
+}
+
+.input1{
+display: flex;
+padding: 3px;
+}
+.input2{
+display: flex;
+padding: 3px;
+}
+
+.input1 p{
+    margin-left: 5px;
+    margin-top: 20px;
+    }
+
+    .input2 p{
+        margin-left: 5px;
+    }
+
+.cheese{
+    font-size: 18px;
+    font-style: italic;
+    font-family:'playfair display';
+    font-weight: 400;
+}
+
+.instructions{
+    font-size: 18px;
+    
+    font-family:'playfair display';
+    font-weight: 700;
+}
+
+.number1{
+    display: flex;
+}
+.-number{
+    margin-left: 15px;
+    width:528px ;
+    height: 240;
+}
+.no1{
+    
+    width: 25px;
+    height: 20px;
+    padding: 8px;
+    background: #F2994A;
+    color: black;
+    text-align: center;
+}
+.no2{
+    width: 25px;
+    height: 20px;
+    padding: 8px;
+    background: #F2994A;
+    color: black; 
+    text-align: center; 
+}
+.-number2{
+    margin-left: 15px;
+    width:528px ;
+    height: 152px;
+}
+.-number3{
+    margin-left: 15px;
+    width:528px ;
+    height: 86px;
+}
+.-number4{
+    margin-left: 15px;
+    width:528px ;
+    height: 40px;
+}
+
+@media screen and (max-width:1268px){
+    .body{
+        display: block;
+    }
+
+    .container3{
+        position: fixed;
+        display: flex;
+        top: -300px;
+    }
+}
+
+
+
